@@ -53,9 +53,9 @@ let testEmployee = {
 
 function calculateAllEmployeeBonus(listOfEmployees) {
 for (let i=0; i<listOfEmployees.length; i++) {
-calculateIndividualEmployeeBonus(listOfEmployees[i]);
+console.log(calculateIndividualEmployeeBonus(listOfEmployees[i]))
+employeeBonuses = [];
 }
-return employeeBonuses;
 }
 
 // This function will calculate 1 employee's bonus!
